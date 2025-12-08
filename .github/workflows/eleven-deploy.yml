@@ -54,7 +54,7 @@ jobs:
 
       - name: Build
         env:
-          jidfgbh: ${{ secrets.jidfgbh }}
+          hjgg: ${{ secrets.hjgg }}
         run: ${{ steps.detect-pm.outputs.manager }} run build
 
       - name: Deploy to Cloudflare Pages
